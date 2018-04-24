@@ -14,6 +14,7 @@ public class Fan {
 	public void turnON() {
 		
 		on=true;
+		System.out.println("The fan is now turned on.");
 	}
 	
 	public void turnOff() {
@@ -56,6 +57,7 @@ public class Fan {
 	
 	public void changeRadius(double radius) {
 		this.radius = radius;
+		System.out.println("The radius has been changed.");
 	}
 	
 	public String toString() {
